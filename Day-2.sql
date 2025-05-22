@@ -25,3 +25,7 @@ CREATE TABLE table_name (
   email VARCHAR(100),
   admission_date DATE
 );
+INSERT INTO students(id,name,age,email,admission_date)
+VALUES (53,'khushi',21,'khushishresth5@gmail.com','27-09-2023');
+SELECT * FROM students;
+SELECT name,age FROM students;
