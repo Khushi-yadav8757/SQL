@@ -1,4 +1,4 @@
- Q8. Write a query to find employees with salary between 30000 and 50000.
+Q8. Write a query to find employees with salary between 30000 and 50000.
 ans:-
 SELECT name, salary 
 FROM employees 
