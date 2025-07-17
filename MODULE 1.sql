@@ -127,11 +127,7 @@ Database
  It contains schemas, tables, and other objects.
  One database can have many tables.
 
-Think of it like a school: the school is the database.*
-
----
-
-#### 🔸 **Table**
+Table**
 
 * A **collection of rows and columns** to store data.
 * Each table stores **specific types** of data.
