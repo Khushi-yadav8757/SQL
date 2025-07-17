@@ -127,7 +127,7 @@ Database
  It contains schemas, tables, and other objects.
  One database can have many tables.
 
-🗂️ *Think of it like a school: the school is the database.*
+Think of it like a school: the school is the database.*
 
 ---
 
