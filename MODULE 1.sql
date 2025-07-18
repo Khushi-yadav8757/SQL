@@ -143,13 +143,10 @@ CREATE TABLE Students (
   Name VARCHAR(50),
   Age INT
 );
-```
 
----
+Schema
 
-#### 🔸 **Schema**
-
-* A **logical structure** that groups related tables, views, and procedures.
+ A logical structure that groups related tables, views, and procedures.
 * Useful for organizing large databases.
 
 🧱 *Think of it as a section in a school (e.g., “Science section”), grouping classrooms (tables).*
