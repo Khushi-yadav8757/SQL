@@ -129,15 +129,12 @@ Database
 
 Table
 
-A collection of rows and columns** to store data.
-* Each table stores **specific types** of data.
-* Like a spreadsheet.
+A collection of rows and columns to store data.
+ Each table stores specific types of data.
+Like a spreadsheet.
 
-📊 *Think of it like a classroom in the school, storing student data.*
+ Example:
 
-> 📌 Example:
-
-```sql
 CREATE TABLE Students (
   RollNo INT,
   Name VARCHAR(50),
@@ -147,36 +144,9 @@ CREATE TABLE Students (
 Schema
 
  A logical structure that groups related tables, views, and procedures.
-* Useful for organizing large databases.
+ Useful for organizing large databases.
 
-🧱 *Think of it as a section in a school (e.g., “Science section”), grouping classrooms (tables).*
+ Example:
 
-> 📌 Example:
-
-```sql
 CREATE SCHEMA School;
-```
-
----
-
-### 📌 Summary Chart:
-
-| Concept      | Description                    | Example             |
-| ------------ | ------------------------------ | ------------------- |
-| **Database** | Collection of schemas & tables | `CollegeDB`         |
-| **Schema**   | Logical grouping of objects    | `LibrarySchema`     |
-| **Table**    | Stores data in rows & columns  | `Books`, `Students` |
-
----
-
-💡 Quick Memory Tip (DDL, DML, DCL... Trick):
-
-> **"Dr. DeCoT Said SELECT"
-> 🔸 **Dr** → **D**DL & **D**ML
-> 🔸 **Co** → **C**ontrol = DCL
-> 🔸 **T** → Transaction = TCL
-> 🔸 **SELECT** = DQL
-
----
-
-Would you like this in a **PDF format** or need **practice questions** for this module too?
+---------------------------------------------------------------------------------------------------------
