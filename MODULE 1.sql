@@ -127,9 +127,9 @@ Database
  It contains schemas, tables, and other objects.
  One database can have many tables.
 
-Table**
+Table
 
-* A **collection of rows and columns** to store data.
+A collection of rows and columns** to store data.
 * Each table stores **specific types** of data.
 * Like a spreadsheet.
 
