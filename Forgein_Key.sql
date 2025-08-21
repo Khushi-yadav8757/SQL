@@ -18,7 +18,8 @@ CREATE TABLE students (
     FOREIGN KEY (course_id) REFERENCES courses(course_id)
 );
 
---  Insert 5 courses
+-- 
+Insert 5 courses
 
 INSERT INTO courses (course_name, duration_months, fees) VALUES
 ('Data Science', 6, 25000.00),
@@ -27,8 +28,7 @@ INSERT INTO courses (course_name, duration_months, fees) VALUES
 ('Graphic Design', 5, 20000.00),
 ('Cyber Security', 6, 30000.00);
 
---  Insert 5 students (linked to courses by course_id
-)
+--Insert 5 students (linked to courses by course_id )
 INSERT INTO students (student_name, age, city, course_id) VALUES
 ('Amit Sharma', 20, 'Delhi', 1),  -- Data Science
 ('Priya Verma', 22, 'Mumbai', 2), -- Web Development
