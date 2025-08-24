@@ -24,4 +24,8 @@ example4:Select customers with a CustomerId not greater than 100:
 
 SELECT * FROM Customers
 WHERE NOT CustomerID > 100;
+----------------------------------------------
+example4:Select customers with a CustomerID not less than 100:
 
+SELECT * FROM Customers
+WHERE NOT CustomerId < 100;
