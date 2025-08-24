@@ -14,3 +14,9 @@ example2:Select customers that does not start with the letter 'A'
 
 SELECT * FROM Customers
 WHERE CustomerName NOT LIKE 'A%';
+------------------------------------
+example3:Select customers with a customerID not between 10 and 60:
+
+SELECT * FROM Customers
+WHERE CustomerID NOT BETWEEN 10 AND 60;
+---------------------------------------------
