@@ -5,7 +5,12 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE NOT condition;
 
------------------------------------
-example:Select only the customers that are NOT from Spain
+------------------------------------
+example1:Select only the customers that are NOT from Spain
 SELECT * FROM Customers
 WHERE NOT Country = 'Spain';
+---------------------------------------
+example2:Select customers that does not start with the letter 'A'
+
+SELECT * FROM Customers
+WHERE CustomerName NOT LIKE 'A%';
