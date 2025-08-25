@@ -1,3 +1,4 @@
+--Having --
 SELECT position, AVG(salary) 
 FROM employees 
 GROUP BY position
