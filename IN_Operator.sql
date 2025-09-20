@@ -1,0 +1,6 @@
+The IN operator allows you to specify multiple values in a WHERE clause.
+The IN operator is a shorthand for multiple OR conditions.
+
+Example:
+SELECT * FROM Customers
+WHERE Country IN ('Germany', 'France', 'UK');
