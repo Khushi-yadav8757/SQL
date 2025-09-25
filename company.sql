@@ -17,10 +17,8 @@ VALUES
 
 DELETE FROM employee
 WHERE id=103;
-
 ALTER TABLE employee
 DROP COLUMN salary;
-
 DROP TABLE IF EXISTS employee;
 
 
