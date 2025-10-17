@@ -9,7 +9,6 @@ SELECT * FROM employees WHERE salary IS NULL;
 
 UPDATE
 UPDATE employees SET salary = 65000 WHERE id = 1;
-
 DELETE
 DELETE FROM employees WHERE id = 1;
 
