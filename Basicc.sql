@@ -1,4 +1,3 @@
-
 -- IN
 SELECT * FROM employees WHERE position IN ('Manager', 'Developer');
 ----------------------------------------------------------------
