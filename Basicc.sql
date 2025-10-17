@@ -1,23 +1,25 @@
-#IN
+--------------------------------------------------------------------
+-- IN
 SELECT * FROM employees WHERE position IN ('Manager', 'Developer');
-
-#LIKE
+----------------------------------------------------------------
+-- LIKE
 SELECT * FROM employees WHERE name LIKE 'J%';
-
-IS NULL
+-----------------------------------------------------------------
+-- IS NULL
 SELECT * FROM employees WHERE salary IS NULL;
-
-UPDATE
+-----------------------------------------------------------------
+-- UPDATE
 UPDATE employees SET salary = 65000 WHERE id = 1;
-DELETE
+----------------------------------------------------------------
+--DELETE
 DELETE FROM employees WHERE id = 1;
-
-Aggregate functions
+------------------------------------------------------------------
+--Aggregate functions
 SELECT COUNT(*), AVG(salary), MAX(salary), MIN(salary) FROM employees;
 --------------------------------------------------------------------
-GROUP BY
+--GROUP BY
 SELECT position, AVG(salary) 
 FROM employees 
 GROUP BY position;
-
+-------------------------------------------------------------------------
 
