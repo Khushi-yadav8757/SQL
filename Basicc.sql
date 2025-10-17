@@ -12,7 +12,7 @@ UPDATE employees SET salary = 65000 WHERE id = 1;
 ----------------------------------------------------------------
 --DELETE
 DELETE FROM employees WHERE id = 1;
----------------------------------------------------------------------
+--------------------------------------------------------------------
 --Aggregate functions
 SELECT COUNT(*), AVG(salary), MAX(salary), MIN(salary) FROM employees;
 --------------------------------------------------------------------
@@ -20,5 +20,5 @@ SELECT COUNT(*), AVG(salary), MAX(salary), MIN(salary) FROM employees;
 SELECT position, AVG(salary) 
 FROM employees 
 GROUP BY position;
--------------------------------------------------------------------------
+----------------------------------------------------------------------
 
