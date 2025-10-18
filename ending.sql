@@ -1,5 +1,5 @@
 --Names ending with "h"
-Ans:-
+--Ans:-
 SELECT * 
 FROM Employees
 WHERE name LIKE '%h';
