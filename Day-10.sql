@@ -1,7 +1,8 @@
- What is a JOIN?
+-- What is a JOIN?
 JOIN is used to combine rows from two or more tables based on a related column between them (usually a primary key and foreign key relationship).
  
- | Join Type       | Description                                                                  |
+
+| Join Type       | Description                                                                  |
 | --------------- | ---------------------------------------------------------------------------- |
 | INNER JOIN      | Returns only matching rows between tables.                                   |
 | LEFT JOIN       | Returns all rows from the left table, and matched rows from the right table. |
@@ -10,15 +11,16 @@ JOIN is used to combine rows from two or more tables based on a related column b
 | SELF JOIN       | Joins a table to itself.                                                     |
 | CROSS JOIN      | Returns all possible combinations (Cartesian product).                       |
 
-📘 Example Tables
-🧾 Table 1: Customers
+-- Example Tables
+ 
+-- Table 1: Customers
 | CustomerID | CustomerName |
 | ---------- | ------------ |
 | 1          | Alice        |
 | 2          | Bob          |
 | 3          | Charlie      |
 
-🧾 Table 2: Orders
+-- Table 2: Orders
 
 | OrderID | CustomerID | Product  |
 | ------- | ---------- | -------- |
