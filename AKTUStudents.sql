@@ -33,6 +33,12 @@ GROUP BY marks;
 SELECT AVG(marks) AS avg_high_scorers
 FROM students
 WHERE marks > 80;
+--HAVING Clause with Aggregate Function
+SELECT marks, COUNT(*) AS count_students
+FROM students
+GROUP BY marks
+HAVING COUNT(*) > 1;
+
 
 
 
