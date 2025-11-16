@@ -16,3 +16,7 @@ FROM students;
 --SUM() – Sum of Values
 SELECT SUM(marks) AS total_marks
 FROM students;
+--AVG() – Average Value
+SELECT AVG(marks) AS average_marks
+FROM students;
+--MAX() – Maximum Value
