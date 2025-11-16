@@ -29,6 +29,7 @@ FROM students;
 SELECT marks, COUNT(*) AS no_of_students
 FROM students
 GROUP BY marks;
+--Aggregate Function with WHERE
 
 
 
