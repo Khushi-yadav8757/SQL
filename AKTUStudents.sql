@@ -22,4 +22,8 @@ FROM students;
 --MAX() – Maximum Value
 SELECT MAX(marks) AS highest_marks
 FROM students;
+--MIN() – Minimum Value
+SELECT MIN(marks) AS lowest_marks
+FROM students;
+
 
