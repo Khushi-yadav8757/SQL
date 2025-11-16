@@ -13,3 +13,4 @@ INSERT INTO students VALUES
 --COUNT() – Total Records Count
 SELECT COUNT(*) AS total_students
 FROM students;
+--SUM() – Sum of Values
