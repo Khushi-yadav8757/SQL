@@ -25,5 +25,10 @@ FROM students;
 --MIN() – Minimum Value
 SELECT MIN(marks) AS lowest_marks
 FROM students;
+--GROUP BY + Aggregate Function
+SELECT marks, COUNT(*) AS no_of_students
+FROM students
+GROUP BY marks;
+
 
 
