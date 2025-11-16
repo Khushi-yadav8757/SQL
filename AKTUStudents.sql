@@ -20,3 +20,6 @@ FROM students;
 SELECT AVG(marks) AS average_marks
 FROM students;
 --MAX() – Maximum Value
+SELECT MAX(marks) AS highest_marks
+FROM students;
+
