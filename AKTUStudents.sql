@@ -30,6 +30,9 @@ SELECT marks, COUNT(*) AS no_of_students
 FROM students
 GROUP BY marks;
 --Aggregate Function with WHERE
+SELECT AVG(marks) AS avg_high_scorers
+FROM students
+WHERE marks > 80;
 
 
 
