@@ -14,3 +14,5 @@ INSERT INTO students VALUES
 SELECT COUNT(*) AS total_students
 FROM students;
 --SUM() – Sum of Values
+SELECT SUM(marks) AS total_marks
+FROM students;
