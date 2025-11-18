@@ -1,7 +1,5 @@
 --Q3. Find the percentage of orders that were delivered late.
-
 --Table: Orders(order_id, delivery_date, expected_date)
-
 --SQL Solution:
 
 SELECT 
