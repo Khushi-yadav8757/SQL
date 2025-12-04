@@ -1,5 +1,5 @@
- Q5. Write a query to find duplicate employee names.
-ans:-
+-- Q5. Write a query to find duplicate employee names.
+--ans:-
    
 SELECT name, COUNT(*) 
 FROM employees 
