@@ -1,4 +1,4 @@
-- - Delete duplicate records
+-- Delete duplicate records
 
 DELETE FROM emp
 WHERE id NOT IN (
