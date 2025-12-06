@@ -6,7 +6,6 @@ CREATE TABLE courses (
     duration_months INT,
     fees NUMERIC(10,2)
 );
-
 --  Create students table linked with courses
 
 CREATE TABLE students (
