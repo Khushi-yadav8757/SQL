@@ -14,6 +14,7 @@ CREATE OR REPLACE VIEW student_view AS
 SELECT name, age
 FROM students;
 
+
 -- DELETE VIEW
 DROP VIEW student_view;
 
