@@ -8,6 +8,7 @@ WHERE marks > 60;
 --RETRIEVE DATA FROM VIEW
 SELECT * FROM student_view;
 
+
 -- UPDATE VIEW 
 CREATE OR REPLACE VIEW student_view AS
 SELECT name, age
