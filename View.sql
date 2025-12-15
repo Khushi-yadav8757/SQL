@@ -4,6 +4,7 @@ SELECT name, age, marks
 FROM students
 WHERE marks > 60;
 
+
 --RETRIEVE DATA FROM VIEW
 SELECT * FROM student_view;
 
