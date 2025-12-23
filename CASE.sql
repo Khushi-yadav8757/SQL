@@ -1,6 +1,6 @@
 --How to use CASE in SQL?
 --Question: Categorize employees as 'High' if salary > 70000, otherwise 'Low'.
-ANSWER:
+--ANSWER:
 
 SELECT Name, Salary,
        CASE 
