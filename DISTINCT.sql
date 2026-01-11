@@ -1,6 +1,7 @@
 --What is DISTINCT in SQL?
 --Question: Get all unique department IDs from Employees.
 Answer:
+  
 SELECT DISTINCT DepartmentID
 FROM Employees;
 
