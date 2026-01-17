@@ -1,4 +1,4 @@
-Q.Get student names with their class names.
+--Q.Get student names with their class names.
 
 SELECT s.name, c.class_name
 FROM Students s
