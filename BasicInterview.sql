@@ -86,9 +86,6 @@ ROW_NUMBER(): Always unique sequential numbers.
 SQL query optimization tips.
 
 Use indexes on frequently searched columns.
-
 Avoid SELECT *.
-
 Use joins efficiently.
-
 Avoid nested queries if possible.
