@@ -80,9 +80,9 @@ Difference between RANK(), DENSE_RANK(), ROW_NUMBER().
 RANK(): Skips ranks if there’s a tie.
 
 DENSE_RANK(): No rank gaps.
-
 ROW_NUMBER(): Always unique sequential numbers.
 
+    
 SQL query optimization tips.
 
 Use indexes on frequently searched columns.
