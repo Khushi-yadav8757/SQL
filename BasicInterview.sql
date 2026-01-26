@@ -12,16 +12,14 @@ FULL OUTER JOIN: Returns all rows when there is a match in one of the tables.
 Difference between WHERE and HAVING.
 WHERE filters rows before aggregation.
 HAVING filters rows after aggregation (used with GROUP BY).
+    
 What is a primary key?
-
 Unique identifier for each row in a table; cannot be NULL.
 
 What is a foreign key?
-
 Column in one table that references the primary key of another table.
 
 Difference between UNION and UNION ALL.
-
 UNION: Removes duplicates.
 
 UNION ALL: Keeps duplicates.
