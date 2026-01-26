@@ -50,7 +50,6 @@ WHERE condition;
 Advanced SQL Questions
 
 Explain window functions. Give an example.
-
 Window functions perform calculations across a set of table rows related to the current row.
 
 SELECT name, salary, RANK() OVER (ORDER BY salary DESC) AS rank
