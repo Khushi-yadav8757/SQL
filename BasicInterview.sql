@@ -21,7 +21,6 @@ Column in one table that references the primary key of another table.
 
 Difference between UNION and UNION ALL.
 UNION: Removes duplicates.
-
 UNION ALL: Keeps duplicates.
 
 Intermediate SQL Questions
