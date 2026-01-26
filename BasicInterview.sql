@@ -1,15 +1,11 @@
 --Basic SQL Questions
-
 What is SQL?
-
 SQL (Structured Query Language) is used to manage and manipulate relational databases.
 
+    
 Difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN.
-
 INNER JOIN: Returns matching rows from both tables.
-
 LEFT JOIN: Returns all rows from left table + matched rows from right.
-
 RIGHT JOIN: Returns all rows from right table + matched rows from left.
 
 FULL OUTER JOIN: Returns all rows when there is a match in one of the tables.
