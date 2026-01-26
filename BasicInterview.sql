@@ -30,27 +30,18 @@ SELECT MAX(salary)
 FROM employees 
 WHERE salary < (SELECT MAX(salary) FROM employees);
 
-
 Difference between DELETE, TRUNCATE, and DROP.
-
 DELETE: Removes rows; can use WHERE; logs changes; slower.
-
 TRUNCATE: Removes all rows; cannot use WHERE; faster; resets identity.
-
 DROP: Deletes table structure and data completely.
 
 What are indexes? Why use them?
-
 Indexes improve query performance by allowing faster searches.
-
 Drawback: Slower inserts/updates and extra storage.
-
+    
 What are views?
-
 Virtual tables created by a query. Do not store data themselves.
-
 Syntax:
-
 CREATE VIEW view_name AS
 SELECT column1, column2
 FROM table_name
