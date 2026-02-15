@@ -8,7 +8,6 @@ SELECT name, age FROM students;
 Select all column
 SELECT * FROM students;
 *****************************************************************************
-  
 🔹 1. WHERE Clause – Filter data based on condition
 ✅ Syntax:
 sql
