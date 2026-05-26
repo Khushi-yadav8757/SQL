@@ -9,7 +9,7 @@ TRUNCATE	Table ka pura data delete karne ke liye, bina table delete kiye
 
 🔹 2. DML (Data Manipulation Language)
 Data ko modify karne ke liye
-
+  
 Command	Use
 INSERT	Table mein naya data add karne ke liye
 UPDATE	Existing data ko update karne ke liye
