@@ -21,6 +21,7 @@ Data ko retrieve (nikalne) ke liye
 Command	Use
 SELECT	Table se data fetch karne ke liye
 
+  
 🔹 4. TCL (Transaction Control Language)
 Transaction manage karne ke liye
 
@@ -30,6 +31,7 @@ ROLLBACK	Changes cancel karne ke liye
 SAVEPOINT	Specific point tak rollback karne ke liye
 SET TRANSACTION	Transaction ke properties set karne ke liye
 
+  
 🔹 5. DCL (Data Control Language)
 Permissions aur access control ke liye
 
