@@ -5,7 +5,6 @@ CREATE TABLE Employees (
     dept_id INT,
     salary NUMERIC(10,2)
 );
-
 -- Departments Table
 CREATE TABLE Departments (
     dept_id INT PRIMARY KEY,
