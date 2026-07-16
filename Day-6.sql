@@ -7,7 +7,7 @@ SELECT * FROM students
 ORDER BY marks DESC
 LIMIT 5;
 Yeh top 5 students ko dikhata hai highest marks ke saath.
-
+  
 ✅ SQL Server:
 SELECT TOP 5 * FROM students
 ORDER BY marks DESC;
