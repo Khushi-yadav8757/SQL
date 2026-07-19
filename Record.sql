@@ -1,5 +1,6 @@
 Q.Find common records between two tables
-SELECT *
+
+  SELECT *
 FROM table1
 INTERSECT
 SELECT *
